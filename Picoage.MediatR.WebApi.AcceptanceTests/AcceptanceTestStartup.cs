@@ -20,9 +20,9 @@ namespace Picoage.MediatR.WebApi.AcceptanceTests
     {
         private protected HttpClient Client { get; private set; }
 
-        private protected string Username { get; set; } = "dev@test.com";
+        private protected string Username { get; set; } = "";
 
-        private protected string Password { get; set; } = "6a>2=b9piSo6n-d";
+        private protected string Password { get; set; } = "";
 
         private protected HttpStatusCode StatusCode { get; private set; }
 
